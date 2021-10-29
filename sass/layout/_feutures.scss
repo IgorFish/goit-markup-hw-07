@@ -1,8 +1,3 @@
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features {
   display: flex;
   padding-left: 0px;
@@ -16,7 +11,7 @@
   margin-right: 0px;
 }
 
-.feutures__icon {
+.feutures__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,10 +21,7 @@
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.feuters__svg {
-  width: 70px;
-  height: 70px;
-}
+
 .feutures__title {
   color: var(--title-text-color);
   font-weight: 700;

@@ -1,12 +1,12 @@
-.icon {
+.sochial__icon {
   display: flex;
   justify-content: center;
 }
-.icon__item:not(:last-child) {
+.sochial__icon__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.icon__link {
+.sochial__icon__link {
   display: flex;
   justify-content: center;
   align-items: center;

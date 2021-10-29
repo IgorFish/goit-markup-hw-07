@@ -42,10 +42,10 @@
   &:focus {
     color: var(--accent-color);
   }
-  &.current {
+  &.navigation__link--current {
     color: var(--accent-color);
   }
-  &.current:after {
+  &.navigation__link--current:after {
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -76,12 +76,12 @@
 }
 
 /* контакты телефон почта */
-.contacs {
+.contakts {
   margin-left: auto;
   display: flex;
 }
 
-.contakts-item__mail {
+.contakts__item__mail {
   margin-right: 50px;
 }
 
